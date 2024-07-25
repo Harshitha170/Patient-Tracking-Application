@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "745982449733",
+    "firebase_url": "https://patient-tracking-600f6-default-rtdb.firebaseio.com",
+    "project_id": "patient-tracking-600f6",
+    "storage_bucket": "patient-tracking-600f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745982449733:android:6a12185243ff5288072b2c",
+        "android_client_info": {
+          "package_name": "com.ensias.healthcareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745982449733-p9umipjcmp2i7j27tkb5u52cg946nle1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBECSSSx0f9_2-v8t1vVWsdf0tvr7TZjCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745982449733-p9umipjcmp2i7j27tkb5u52cg946nle1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745982449733:android:31949623d89b0c02072b2c",
+        "android_client_info": {
+          "package_name": "com.project.loginscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745982449733-ce9397mnnulhno3a5bl75sl2qija3cku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.loginscreen",
+            "certificate_hash": "5b17cb31a119f02993a36204905ebb681ee6a550"
+          }
+        },
+        {
+          "client_id": "745982449733-p9umipjcmp2i7j27tkb5u52cg946nle1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBECSSSx0f9_2-v8t1vVWsdf0tvr7TZjCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745982449733-p9umipjcmp2i7j27tkb5u52cg946nle1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

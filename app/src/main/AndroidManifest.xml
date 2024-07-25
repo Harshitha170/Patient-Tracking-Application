@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ensias.patienttracker">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="Patient Bot"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="com.ensias.patienttracker.MyCalendarDoctorActivity"></activity>
+        <activity android:name="com.ensias.patienttracker.TestActivity" />
+        <activity android:name="com.ensias.patienttracker.AppointementActivity" />
+        <activity android:name="com.ensias.patienttracker.FicheInfo" />
+        <activity android:name="com.ensias.patienttracker.PatientInfoActivity" />
+        <activity android:name="com.ensias.patienttracker.DossierMedical" />
+        <activity android:name="com.ensias.patienttracker.ChatActivity" />
+        <activity android:name="com.ensias.patienttracker.PatientRequestPage" />
+        <activity android:name="com.ensias.patienttracker.DoctorHomeActivity" />
+        <activity android:name="com.ensias.patienttracker.EditProfileDoctorActivity" />
+        <activity android:name="com.ensias.patienttracker.ConfirmedAppointmensActivity" />
+        <activity android:name="com.ensias.patienttracker.PatientAppointementsActivity" />
+        <activity android:name="com.ensias.patienttracker.ProfilePatientActivity" />
+        <activity android:name="com.ensias.patienttracker.MyDoctorsAvtivity" />
+        <activity android:name="com.ensias.patienttracker.ProfileDoctorActivity" />
+        <activity android:name="com.ensias.patienttracker.EditProfilePatientActivity" />
+        <activity android:name="com.ensias.patienttracker.DoctorAppointementActivity" />
+        <activity android:name="com.ensias.patienttracker.FicheActivity" />
+        <activity android:name="com.ensias.patienttracker.MyPatientsActivity" />
+        <activity android:name="com.ensias.patienttracker.SearchPatActivity" />
+        <activity android:name="com.ensias.patienttracker.FirstSigninActivity" />
+        <activity android:name="com.ensias.patienttracker.HomeActivity" />
+        <activity android:name="com.ensias.patienttracker.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
